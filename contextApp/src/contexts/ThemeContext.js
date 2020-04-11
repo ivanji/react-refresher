@@ -1,7 +1,4 @@
-import React, {
-  createContext,
-  Component
-} from "../../node_modules/@types/react";
+import React, { createContext, Component } from "react";
 
 export const ThemeContext = createContext();
 
@@ -21,7 +18,6 @@ class ThemeContextProvider extends Component {
   };
 
   toggleTheme = () => {
-    console.log("exec");
     this.setState({ isLightTheme: !this.state.isLightTheme });
   };
 
