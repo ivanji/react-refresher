@@ -1,4 +1,7 @@
-import React, { Component, createContext } from "react";
+import React, {
+  Component,
+  createContext
+} from "../../node_modules/@types/react";
 
 export const AuthContext = createContext();
 

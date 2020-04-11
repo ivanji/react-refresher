@@ -1,4 +1,7 @@
-import React, { createContext, Component } from "react";
+import React, {
+  createContext,
+  Component
+} from "../../node_modules/@types/react";
 
 export const ThemeContext = createContext();
 

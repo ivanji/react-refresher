@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "../../node_modules/@types/react";
 import { ThemeContext } from "../contexts/ThemeContext";
 
 // Approach 1: Consuming context using Context Consumer
